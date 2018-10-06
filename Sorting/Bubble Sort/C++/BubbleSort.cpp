@@ -23,7 +23,7 @@ void main()
 {
 clrscr();
 	randomize();
-	int cnt,size;
+	int cnt,size,i1;
 	for(int k=0;k<14;k++)
 	{
 	size=random(10)+10;
@@ -35,7 +35,7 @@ clrscr();
 	}
 	cnt=bsort(a,size-1);
 	cout<<"\n";
-	for(int i1=0;i1<size;i1++)
+	for(i1=0;i1<size;i1++)
 	cout<<a[i1]<<" ";
 	cout<<"cmp"<<cnt<<"\n\n";
 	}
